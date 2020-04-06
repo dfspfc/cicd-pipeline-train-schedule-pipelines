@@ -39,5 +39,8 @@ pipeline {
         }
       }
     }
+    
+    echo ${$USERNAME}"
+     echo ${$USERPASS}"
   }
 }
